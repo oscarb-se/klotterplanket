@@ -7,13 +7,28 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="se.oscarb.klotterplanket.MainActivity">
+    tools:context="se.oscarb.klotterplanket.MainActivity"
+    android:orientation="vertical">
 
     <TextView
-        android:id="@+id/display_message"
+    android:id="@+id/display_message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/display_message_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text=""
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/display_message_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10sp" />
 
     <EditText
         android:id="@+id/edit_message"
