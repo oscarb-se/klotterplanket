@@ -8,36 +8,48 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="se.oscarb.klotterplanket.MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
 
     <TextView
     android:id="@+id/display_message"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text=""
-    android:textSize="24sp"/>
+    android:textSize="36sp"
+        android:textColor="@android:color/white"
+        />
 
     <TextView
         android:id="@+id/display_message_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
-        android:textSize="16sp"/>
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+       />
 
     <TextView
         android:id="@+id/display_message_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="10sp" />
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        />
 
     <EditText
         android:id="@+id/edit_message"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        />
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Klottra!"
         android:onClick="sendMessage"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+
         />
 </LinearLayout>
